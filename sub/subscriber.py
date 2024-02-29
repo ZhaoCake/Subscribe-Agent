@@ -1,6 +1,6 @@
 from metagpt.roles import Role
 from metagpt.schema import Message, logger
-from subactions import CrawlOSSTrending, CrawHuggingPaper, Summary
+from sub.subactions import CrawlOSSTrending, CrawHuggingPaper, Summary
 from typing import Any
 import asyncio
 
